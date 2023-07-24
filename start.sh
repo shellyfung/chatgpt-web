@@ -1,4 +1,4 @@
-git clone -b local https://github.com/shellyfung/chatgpt-web.git
+git pull
 
 cd ./service
 nohup pnpm start > service.log 2>&1 &
